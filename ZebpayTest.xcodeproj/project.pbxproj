@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3EEA191F3B8A4800DA138E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EEA181F3B8A4800DA138E /* main.m */; };
+		3B3EEA1C1F3B8A4800DA138E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EEA1B1F3B8A4800DA138E /* AppDelegate.m */; };
+		3B3EEA1F1F3B8A4800DA138E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EEA1E1F3B8A4800DA138E /* ViewController.m */; };
+		3B3EEA221F3B8A4800DA138E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3EEA201F3B8A4800DA138E /* Main.storyboard */; };
+		3B3EEA251F3B8A4800DA138E /* ZebpayTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EEA231F3B8A4800DA138E /* ZebpayTest.xcdatamodeld */; };
+		3B3EEA271F3B8A4800DA138E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3EEA261F3B8A4800DA138E /* Assets.xcassets */; };
+		3B3EEA2A1F3B8A4800DA138E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3EEA281F3B8A4800DA138E /* LaunchScreen.storyboard */; };
+		3B3EEA351F3B8A4800DA138E /* ZebpayTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EEA341F3B8A4800DA138E /* ZebpayTestTests.m */; };
+		3B3EEA401F3B8A4800DA138E /* ZebpayTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EEA3F1F3B8A4800DA138E /* ZebpayTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B3EEA311F3B8A4800DA138E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3EEA0C1F3B8A4700DA138E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3EEA131F3B8A4700DA138E;
+			remoteInfo = ZebpayTest;
+		};
+		3B3EEA3C1F3B8A4800DA138E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3EEA0C1F3B8A4700DA138E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3EEA131F3B8A4700DA138E;
+			remoteInfo = ZebpayTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B3EEA141F3B8A4700DA138E /* ZebpayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZebpayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3EEA181F3B8A4800DA138E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B3EEA1A1F3B8A4800DA138E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B3EEA1B1F3B8A4800DA138E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B3EEA1D1F3B8A4800DA138E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B3EEA1E1F3B8A4800DA138E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B3EEA211F3B8A4800DA138E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B3EEA241F3B8A4800DA138E /* ZebpayTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZebpayTest.xcdatamodel; sourceTree = "<group>"; };
+		3B3EEA261F3B8A4800DA138E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B3EEA291F3B8A4800DA138E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B3EEA2B1F3B8A4800DA138E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3EEA301F3B8A4800DA138E /* ZebpayTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZebpayTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3EEA341F3B8A4800DA138E /* ZebpayTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZebpayTestTests.m; sourceTree = "<group>"; };
+		3B3EEA361F3B8A4800DA138E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3EEA3B1F3B8A4800DA138E /* ZebpayTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZebpayTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3EEA3F1F3B8A4800DA138E /* ZebpayTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZebpayTestUITests.m; sourceTree = "<group>"; };
+		3B3EEA411F3B8A4800DA138E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B3EEA111F3B8A4700DA138E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3EEA2D1F3B8A4800DA138E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3EEA381F3B8A4800DA138E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3EEA0B1F3B8A4700DA138E = {
+			isa = PBXGroup;
+			children = (
+				3B3EEA161F3B8A4700DA138E /* ZebpayTest */,
+				3B3EEA331F3B8A4800DA138E /* ZebpayTestTests */,
+				3B3EEA3E1F3B8A4800DA138E /* ZebpayTestUITests */,
+				3B3EEA151F3B8A4700DA138E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B3EEA151F3B8A4700DA138E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B3EEA141F3B8A4700DA138E /* ZebpayTest.app */,
+				3B3EEA301F3B8A4800DA138E /* ZebpayTestTests.xctest */,
+				3B3EEA3B1F3B8A4800DA138E /* ZebpayTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B3EEA161F3B8A4700DA138E /* ZebpayTest */ = {
+			isa = PBXGroup;
+			children = (
+				3B3EEA1A1F3B8A4800DA138E /* AppDelegate.h */,
+				3B3EEA1B1F3B8A4800DA138E /* AppDelegate.m */,
+				3B3EEA1D1F3B8A4800DA138E /* ViewController.h */,
+				3B3EEA1E1F3B8A4800DA138E /* ViewController.m */,
+				3B3EEA201F3B8A4800DA138E /* Main.storyboard */,
+				3B3EEA261F3B8A4800DA138E /* Assets.xcassets */,
+				3B3EEA281F3B8A4800DA138E /* LaunchScreen.storyboard */,
+				3B3EEA2B1F3B8A4800DA138E /* Info.plist */,
+				3B3EEA231F3B8A4800DA138E /* ZebpayTest.xcdatamodeld */,
+				3B3EEA171F3B8A4800DA138E /* Supporting Files */,
+			);
+			path = ZebpayTest;
+			sourceTree = "<group>";
+		};
+		3B3EEA171F3B8A4800DA138E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3EEA181F3B8A4800DA138E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B3EEA331F3B8A4800DA138E /* ZebpayTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3EEA341F3B8A4800DA138E /* ZebpayTestTests.m */,
+				3B3EEA361F3B8A4800DA138E /* Info.plist */,
+			);
+			path = ZebpayTestTests;
+			sourceTree = "<group>";
+		};
+		3B3EEA3E1F3B8A4800DA138E /* ZebpayTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3EEA3F1F3B8A4800DA138E /* ZebpayTestUITests.m */,
+				3B3EEA411F3B8A4800DA138E /* Info.plist */,
+			);
+			path = ZebpayTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B3EEA131F3B8A4700DA138E /* ZebpayTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3EEA441F3B8A4800DA138E /* Build configuration list for PBXNativeTarget "ZebpayTest" */;
+			buildPhases = (
+				3B3EEA101F3B8A4700DA138E /* Sources */,
+				3B3EEA111F3B8A4700DA138E /* Frameworks */,
+				3B3EEA121F3B8A4700DA138E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZebpayTest;
+			productName = ZebpayTest;
+			productReference = 3B3EEA141F3B8A4700DA138E /* ZebpayTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B3EEA2F1F3B8A4800DA138E /* ZebpayTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3EEA471F3B8A4800DA138E /* Build configuration list for PBXNativeTarget "ZebpayTestTests" */;
+			buildPhases = (
+				3B3EEA2C1F3B8A4800DA138E /* Sources */,
+				3B3EEA2D1F3B8A4800DA138E /* Frameworks */,
+				3B3EEA2E1F3B8A4800DA138E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3EEA321F3B8A4800DA138E /* PBXTargetDependency */,
+			);
+			name = ZebpayTestTests;
+			productName = ZebpayTestTests;
+			productReference = 3B3EEA301F3B8A4800DA138E /* ZebpayTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B3EEA3A1F3B8A4800DA138E /* ZebpayTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3EEA4A1F3B8A4800DA138E /* Build configuration list for PBXNativeTarget "ZebpayTestUITests" */;
+			buildPhases = (
+				3B3EEA371F3B8A4800DA138E /* Sources */,
+				3B3EEA381F3B8A4800DA138E /* Frameworks */,
+				3B3EEA391F3B8A4800DA138E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3EEA3D1F3B8A4800DA138E /* PBXTargetDependency */,
+			);
+			name = ZebpayTestUITests;
+			productName = ZebpayTestUITests;
+			productReference = 3B3EEA3B1F3B8A4800DA138E /* ZebpayTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B3EEA0C1F3B8A4700DA138E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "vatsal raval";
+				TargetAttributes = {
+					3B3EEA131F3B8A4700DA138E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3B3EEA2F1F3B8A4800DA138E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3B3EEA131F3B8A4700DA138E;
+					};
+					3B3EEA3A1F3B8A4800DA138E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3B3EEA131F3B8A4700DA138E;
+					};
+				};
+			};
+			buildConfigurationList = 3B3EEA0F1F3B8A4700DA138E /* Build configuration list for PBXProject "ZebpayTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B3EEA0B1F3B8A4700DA138E;
+			productRefGroup = 3B3EEA151F3B8A4700DA138E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B3EEA131F3B8A4700DA138E /* ZebpayTest */,
+				3B3EEA2F1F3B8A4800DA138E /* ZebpayTestTests */,
+				3B3EEA3A1F3B8A4800DA138E /* ZebpayTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B3EEA121F3B8A4700DA138E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3EEA2A1F3B8A4800DA138E /* LaunchScreen.storyboard in Resources */,
+				3B3EEA271F3B8A4800DA138E /* Assets.xcassets in Resources */,
+				3B3EEA221F3B8A4800DA138E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3EEA2E1F3B8A4800DA138E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3EEA391F3B8A4800DA138E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B3EEA101F3B8A4700DA138E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3EEA1F1F3B8A4800DA138E /* ViewController.m in Sources */,
+				3B3EEA1C1F3B8A4800DA138E /* AppDelegate.m in Sources */,
+				3B3EEA251F3B8A4800DA138E /* ZebpayTest.xcdatamodeld in Sources */,
+				3B3EEA191F3B8A4800DA138E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3EEA2C1F3B8A4800DA138E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3EEA351F3B8A4800DA138E /* ZebpayTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3EEA371F3B8A4800DA138E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3EEA401F3B8A4800DA138E /* ZebpayTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B3EEA321F3B8A4800DA138E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3EEA131F3B8A4700DA138E /* ZebpayTest */;
+			targetProxy = 3B3EEA311F3B8A4800DA138E /* PBXContainerItemProxy */;
+		};
+		3B3EEA3D1F3B8A4800DA138E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3EEA131F3B8A4700DA138E /* ZebpayTest */;
+			targetProxy = 3B3EEA3C1F3B8A4800DA138E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B3EEA201F3B8A4800DA138E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3EEA211F3B8A4800DA138E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B3EEA281F3B8A4800DA138E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3EEA291F3B8A4800DA138E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B3EEA421F3B8A4800DA138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B3EEA431F3B8A4800DA138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B3EEA451F3B8A4800DA138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZebpayTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaldev.org.ZebpayTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B3EEA461F3B8A4800DA138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZebpayTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaldev.org.ZebpayTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B3EEA481F3B8A4800DA138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZebpayTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaldev.org.ZebpayTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZebpayTest.app/ZebpayTest";
+			};
+			name = Debug;
+		};
+		3B3EEA491F3B8A4800DA138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZebpayTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaldev.org.ZebpayTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZebpayTest.app/ZebpayTest";
+			};
+			name = Release;
+		};
+		3B3EEA4B1F3B8A4800DA138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZebpayTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaldev.org.ZebpayTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZebpayTest;
+			};
+			name = Debug;
+		};
+		3B3EEA4C1F3B8A4800DA138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZebpayTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaldev.org.ZebpayTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZebpayTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3EEA0F1F3B8A4700DA138E /* Build configuration list for PBXProject "ZebpayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3EEA421F3B8A4800DA138E /* Debug */,
+				3B3EEA431F3B8A4800DA138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3EEA441F3B8A4800DA138E /* Build configuration list for PBXNativeTarget "ZebpayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3EEA451F3B8A4800DA138E /* Debug */,
+				3B3EEA461F3B8A4800DA138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B3EEA471F3B8A4800DA138E /* Build configuration list for PBXNativeTarget "ZebpayTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3EEA481F3B8A4800DA138E /* Debug */,
+				3B3EEA491F3B8A4800DA138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B3EEA4A1F3B8A4800DA138E /* Build configuration list for PBXNativeTarget "ZebpayTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3EEA4B1F3B8A4800DA138E /* Debug */,
+				3B3EEA4C1F3B8A4800DA138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B3EEA231F3B8A4800DA138E /* ZebpayTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B3EEA241F3B8A4800DA138E /* ZebpayTest.xcdatamodel */,
+			);
+			currentVersion = 3B3EEA241F3B8A4800DA138E /* ZebpayTest.xcdatamodel */;
+			path = ZebpayTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B3EEA0C1F3B8A4700DA138E /* Project object */;
+}

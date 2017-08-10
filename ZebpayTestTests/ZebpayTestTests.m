@@ -31,25 +31,8 @@
     persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc]initWithManagedObjectModel:managedObjectModel];
     store = [persistentStoreCoordinator addPersistentStoreWithType:NSInMemoryStoreType configuration:nil URL:nil options:nil error:nil];
     
-//
     managedObjectContext = [[NSManagedObjectContext alloc]init];
     managedObjectContext.persistentStoreCoordinator = persistentStoreCoordinator;
-
-//    let context = self.fetchedResultsController.managedObjectContext
-//    let entity = self.fetchedResultsController.fetchRequest.entity!
-//    let person = NSEntityDescription.insertNewObjectForEntityForName(entity.name!, inManagedObjectContext: context) as! Person
-
-    
-//
-//    dataProvider = PeopleListDataProvider()
-//    dataProvider.managedObjectContext = managedObjectContext
-//    
-//    let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("PeopleListViewController") as! PeopleListViewController
-//    viewController.dataProvider = dataProvider
-//    
-//    tableView = viewController.tableView
-//    
-//    testRecord = PersonInfo(firstName: "TestFirstName", lastName: "TestLastName", birthday: NSDate())
     
 }
 

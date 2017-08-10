@@ -210,6 +210,7 @@
 				3B3EEA1E1F3B8A4800DA138E /* ViewController.m */,
 			);
 			name = Controller;
+			path = MVC/Controller;
 			sourceTree = "<group>";
 		};
 		3B3EEA4F1F3B8B7800DA138E /* View */ = {
@@ -217,8 +218,7 @@
 			children = (
 				3B7956781F3CEAEC0080911F /* GenereNameCollectionViewCell */,
 				3B3EEA601F3BB63100DA138E /* ArtistImgCollectionViewCell */,
-				3B3EEA5D1F3B9A9500DA138E /* ArtistNameCollectionViewCell.h */,
-				3B3EEA5E1F3B9A9500DA138E /* ArtistNameCollectionViewCell.m */,
+				3B7A98051F3CF72F009BFB17 /* ArtistNameCollectionViewCell */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -274,6 +274,15 @@
 				3B79567E1F3CECF00080911F /* Reachability.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		3B7A98051F3CF72F009BFB17 /* ArtistNameCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B3EEA5D1F3B9A9500DA138E /* ArtistNameCollectionViewCell.h */,
+				3B3EEA5E1F3B9A9500DA138E /* ArtistNameCollectionViewCell.m */,
+			);
+			name = ArtistNameCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		F209B776E8E4AC4873B6DAEC /* Pods */ = {

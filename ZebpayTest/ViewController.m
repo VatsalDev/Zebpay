@@ -129,21 +129,6 @@
     CGFloat screenWidth = screenRect.size.width;
     float cellWidth = 0.0;
     cellWidth = (screenWidth-20)/ indexPath.section+1;
-//    switch (indexPath.section) {
-//        case 0:
-//            cellWidth = (screenWidth-20)/ indexPath.section+1;
-//            break;
-//        case 1:
-//            cellWidth = (screenWidth-20)/ indexPath.section+1;
-//            break;
-//            
-//        case 2:
-//            cellWidth = (screenWidth-20)/ indexPath.section+1;
-//            break;
-//        default:
-//            break;
-//    }
-    
     CGSize size = CGSizeMake(cellWidth, cellWidth);
     return size;
 }

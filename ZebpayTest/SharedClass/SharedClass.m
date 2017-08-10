@@ -1,14 +1,15 @@
 //
 //  SharedClass.m
-//  Haptik
+//  ZebpayTest
 //
-//  Created by vatsal raval on 04/12/2016.
-//  Copyright © 2016 vatsal raval. All rights reserved.
+//  Created by vatsal raval on 10/08/2017.
+//  Copyright © 2017 vatsal raval. All rights reserved.
 //
 
 #import "SharedClass.h"
-#import "MsgDataModel.h"
+//#import "MsgDataModel.h"
 #import <AFNetworking/AFNetworking.h>
+#import "Reachability.h"
 
 @interface SharedClass()
 
@@ -31,26 +32,27 @@
 }
 
 #pragma mark - General Functions
-- (void) getGroupChatArray: (void (^)(id _Nullable, NSError * _Nullable)) responseBlock {
+- (void) getNewMusicArray: (void (^)(id _Nullable, NSError * _Nullable)) responseBlock {
     
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:self.baseURL]];
-    [manager GET:CHATLIST parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+    [manager GET:NEWMUSICLIST parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSMutableArray* messagesArray = [NSMutableArray arrayWithCapacity:0];
+        NSMutableArray* responseArray = [NSMutableArray arrayWithCapacity:0];
 
-        NSArray* responseMessages = responseObject[@"messages"];
-//        for(NSMutableDictionary* responseDict in responseMessages) {
-//            MsgDataModel* newMsg = [[MsgDataModel alloc] initWithName:responseDict[@"Name"] withUserName:responseDict[@"username"] withImageURL:responseDict[@"image-url"] withMsgText:responseDict[@"body"] withMsgTime:responseDict[@"message-time"]];
-//            [messagesArray addObject:newMsg];
-//        }
+        NSArray* resultArray = responseObject[@"feed"][@"results"];
+        responseArray = [NSMutableArray arrayWithArray:resultArray];
         
-        messagesArray = [NSMutableArray arrayWithArray:responseMessages];
-        
-        responseBlock(messagesArray, nil);
+        responseBlock(responseArray, nil);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"error - %@", error);
         responseBlock(nil, error);
     }];
-    
 }
+
+-(BOOL)connected{
+    Reachability *reachability = [Reachability reachabilityForInternetConnection];
+    NetworkStatus networkStatus = [reachability currentReachabilityStatus];
+    return networkStatus != NotReachable;
+}
+
 @end

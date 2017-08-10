@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ArtistNameCollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UILabel *artistNameLbl;
 
 @end

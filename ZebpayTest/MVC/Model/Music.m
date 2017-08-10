@@ -9,5 +9,6 @@
 #import "Music.h"
 
 @implementation Music
+@synthesize artistName,artistId,artistURL,genereNames,artworkUrl100;
 
 @end

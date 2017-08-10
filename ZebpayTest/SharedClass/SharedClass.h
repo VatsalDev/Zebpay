@@ -1,9 +1,9 @@
 //
 //  SharedClass.h
-//  Haptik
+//  ZebpayTest
 //
-//  Created by vatsal raval on 04/12/2016.
-//  Copyright © 2016 vatsal raval. All rights reserved.
+//  Created by vatsal raval on 10/08/2017.
+//  Copyright © 2017 vatsal raval. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -12,10 +12,12 @@
 
 @interface SharedClass : NSObject
 
-#define BASEURL @"http://haptik.co/"
-#define CHATLIST @"android/test_data/"
+#define BASEURL @"https://rss.itunes.apple.com/api/v1/us/apple-music/"
+#define NEWMUSICLIST @"new-music/10/explicit/json"
+#define APPDELEGATE ((AppDelegate* ) [[UIApplication sharedApplication] delegate])
 
 + (instancetype _Nonnull) sharedInstance;
 
-- (void) getGroupChatArray: (void (^ _Nonnull)(id _Nullable, NSError * _Nullable)) responseBlock;
+- (BOOL)connected;
+- (void) getNewMusicArray: (void (^ _Nonnull)(id _Nullable, NSError * _Nullable)) responseBlock;
 @end

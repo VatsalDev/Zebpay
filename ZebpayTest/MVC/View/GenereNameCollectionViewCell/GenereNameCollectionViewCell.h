@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface GenereNameCollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UILabel *genereNameLbl;
 
 @end

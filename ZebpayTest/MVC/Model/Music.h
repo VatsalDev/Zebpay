@@ -10,4 +10,10 @@
 
 @interface Music : NSManagedObject
 
+@property(nonatomic,retain) NSString *artistId;
+@property(nonatomic,retain) NSString *artistName;
+@property(nonatomic,retain) NSString *artistURL;
+@property(nonatomic,retain) NSData *genereNames;
+@property(nonatomic,retain) NSString *artworkUrl100;
+
 @end
